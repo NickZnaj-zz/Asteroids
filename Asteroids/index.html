@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MOSTLY BLANK</title>
+    <script src = "./lib/movingObject.js"></script>
+    <script src = "./lib/util.js"></script>
+    <script src = "./lib/asteroid.js"></script>
+    <script src = "./lib/game.js"></script>
+    <script src = "./lib/gameView.js"></script>
+  </head>
+  <body>
+
+    <canvas id="myCanvas" width="500" height="500" style="border:1px solid #d3d3d3; background: black;">
+    Your browser does not support the HTML5 canvas tag.</canvas>
+
+    <script>
+      var MovingObject = this.Asteroids.MovingObject;
+      // var obj =  new MovingObject( { pos: [30, 30], vel: [10, 10], radius: 5, color: "#00FF00"});
+
+      var gameview = new this.Asteroids.GameView();
+
+      gameview.start();
+
+    </script>
+
+
+  </body>
+</html>
